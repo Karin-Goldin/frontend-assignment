@@ -33,7 +33,7 @@ export const MainLayout = ({ children }: Props) => (
             <MenuIcon />
           </IconButton>
           <Typography variant='h6' component='div' sx={{ flexGrow: 1 }}>
-            Safebooks.AI Frontend Assignment
+            Frontend Assignment
           </Typography>
         </Toolbar>
       </AppBar>
