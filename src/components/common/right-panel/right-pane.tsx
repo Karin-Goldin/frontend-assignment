@@ -9,7 +9,7 @@ export const RightPane: FC = () => {
     const handleClickOutside = (event: MouseEvent) => {
       const drawer = document.getElementById('drawer');
       if (drawer && !drawer.contains(event.target as Node)) {
-        close();ע אני
+        close();
       }
     };
 
