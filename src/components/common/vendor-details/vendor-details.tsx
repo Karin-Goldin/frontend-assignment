@@ -13,6 +13,7 @@ type VendorDetailsProps = {
   vendor: BusinessVendor | IndependentVendor;
 };
 
+// added to vendor.json the  missing address field
 const getAddress = (vendor: BusinessVendor | IndependentVendor): string => {
   return vendor.address || '';
 };
@@ -24,6 +25,7 @@ export const VendorDetails = ({ vendor }: VendorDetailsProps) => {
     <Box
       sx={{ padding: '24px', minHeight: '100%', backgroundColor: '#fafafa' }}
     >
+      {/* Header with vendor name and icon  */}
       <Box
         sx={{ display: 'flex', alignItems: 'center', gap: 1, marginBottom: 1 }}
       >

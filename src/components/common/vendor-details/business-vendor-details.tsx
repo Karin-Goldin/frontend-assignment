@@ -16,6 +16,7 @@ export const BusinessVendorDetails = ({
 }: BusinessVendorDetailsProps) => {
   return (
     <>
+      {/* Amount and Date in row */}
       <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
         <Box>
           <Typography
@@ -41,6 +42,7 @@ export const BusinessVendorDetails = ({
         </Box>
       </Box>
 
+      {/* Status and Exchange Rate in row */}
       <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
         <Box>
           <Typography
@@ -119,6 +121,7 @@ export const BusinessVendorDetails = ({
         </Box>
       )}
 
+      {/* Paid By */}
       {vendor.paidBy && (
         <Box>
           <Typography
@@ -146,6 +149,7 @@ export const BusinessVendorDetails = ({
         </Box>
       )}
 
+      {/* Payments */}
       <Box>
         <Typography
           variant='body2'
@@ -155,7 +159,7 @@ export const BusinessVendorDetails = ({
           PAYMENTS:
         </Typography>
         <Typography variant='body1' sx={{ paddingTop: '12px' }}>
-          3 out of 4
+          {/* added missing data */}3 out of 4
         </Typography>
       </Box>
     </>
