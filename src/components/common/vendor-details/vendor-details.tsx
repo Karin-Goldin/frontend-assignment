@@ -24,7 +24,6 @@ export const VendorDetails = ({ vendor }: VendorDetailsProps) => {
     <Box
       sx={{ padding: '24px', minHeight: '100%', backgroundColor: '#fafafa' }}
     >
-      {/* Header with vendor name and icon */}
       <Box
         sx={{ display: 'flex', alignItems: 'center', gap: 1, marginBottom: 1 }}
       >

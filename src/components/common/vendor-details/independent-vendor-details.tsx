@@ -16,7 +16,6 @@ export const IndependentVendorDetails = ({
 }: IndependentVendorDetailsProps) => {
   return (
     <>
-      {/* Amount and Date in row */}
       <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
         <Box>
           <Typography
@@ -42,7 +41,6 @@ export const IndependentVendorDetails = ({
         </Box>
       </Box>
 
-      {/* Status */}
       <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
         <Box>
           <Typography
@@ -61,7 +59,6 @@ export const IndependentVendorDetails = ({
         </Box>
       </Box>
 
-      {/* Comment */}
       <Box>
         <Typography
           variant='body2'
@@ -75,7 +72,6 @@ export const IndependentVendorDetails = ({
         </Typography>
       </Box>
 
-      {/* Phone Number */}
       <Box
         sx={{
           border: '1px solid rgba(156, 39, 176, 0.3)',
