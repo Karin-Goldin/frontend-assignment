@@ -54,7 +54,7 @@ export const BusinessVendorDetails = ({
           </Typography>
           <Chip
             label={formatAccountStatus(vendor.accountStatus)}
-            size='small'
+            size='medium'
             {...getAccountStatusChipProps(vendor.accountStatus)}
             sx={{ marginTop: 0.5 }}
           />
